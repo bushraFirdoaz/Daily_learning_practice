@@ -1,0 +1,56 @@
+.first-div {
+ border:5px solid black;
+ width: 50%;
+ height: 30vh;
+
+}
+
+.second-div {
+border:5pt solid black;
+/*border:5px solid black;*/
+width: 50vw;
+height: 50vh;
+}
+
+.third-div {
+border:5in solid black; 
+border:5px solid black;
+}
+
+html {
+    font-size: 16px;
+}
+
+.main-div {
+    font-size: 40px;
+}
+
+.main-div h2 {
+    font-size: 2em;
+}
+
+.main-div p {
+    font-size: 1em;
+}
+
+.main-div h3 {
+    font-size: 1.5em;
+} 
+
+.main-div h2 {
+    font-size: 2rem;
+}
+
+.main-div p {
+    font-size: 1rem;
+}
+
+.main-div h3 {
+    font-size: 1.5rem;
+}
+
+
+/* 
+font-size:16px
+1.5em => parent tag font-size
+*/

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="./thankyou.html">
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="Enter your Mail ID" name="email" required
+            pattern="^[^\s@]+@[^\s@]+\.com$" /><br><br><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" placeholder="Enter your password" required
+            pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@$!%*?&])[A-Za-z0-9@$!%*?&]{8,16}"
+            title="Password must contain 8-16 characters, one uppercase, one lowercase, one digit and one special character (@$!%*?&)"><br><br><br>
+        <button type="submit">SUBMIT</button>
+    </form>
+
+    <p>Don't have an account?, <a href="./register.html">Signup here</a></p>
+</body>
+
+</html>
