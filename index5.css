@@ -1,0 +1,9 @@
+.main{
+    width: 98vw;
+    height: 97.5vh;
+    /* background-image: url(./assets/image7.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-attachment: fixed; */
+    background-image: linear-gradient(to left, rgba(255, 192, 203, 0.497), rgba(255, 255, 0, 0.453), rgba(135, 207, 235, 0.552)), url(./assets/image7.png);
+}
