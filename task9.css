@@ -1,0 +1,99 @@
+.main{
+    width:100%;
+    height: 97vh;
+   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     background-image:
+        linear-gradient(45deg, rgba(84, 81, 81, 0.344), rgba(163, 143, 143, 0.552), rgba(220, 203, 203, 0.36)),
+        url(./assets/bg4.png);
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.navbar button{
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: rgba(250, 235, 215, 0.301);
+    position: absolute;
+    right: 80px;
+    font-size: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.content{
+    border-radius: 10px;
+
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 180px;
+    bottom: 30px;
+    color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-image: linear-gradient(rgba(209, 203, 203, 0.279)); */
+   
+}
+.content h1{
+    font-size: 40px;
+}
+.content p{
+    font-size: 25px;
+}
+.content button{
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgba(102, 103, 105, 0.395);
+    color: antiquewhite;
+    font-size: 20px;
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    right: 80px;
+    top: 120px;
+    
+}
+.container img{
+    display: flex;
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+
+}
+.img1, .img2, .img3{
+    box-shadow: 6px 6px 15px rgba(164, 81, 9, 0.411);
+}
+.img1:hover{
+    width: 250px;
+    height: 400px;
+    cursor: pointer;
+    transition: all ;
+}
+.img2:hover{
+    width: 250px;
+    height: 400px;
+    cursor: pointer;
+    transition: all ;
+}
+.img3:hover{
+    width: 250px;
+    height: 400px;
+    cursor: pointer;
+    transition: all ;
+}

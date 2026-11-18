@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+}
+.image{
+    background-image: url(./assets/bg2.png);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(247, 189, 249);
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "Science Gothic", sans-serif;
+}
+.nav-content{
+    display: flex;
+    gap:20px;
+}
+
+/* 
+.science-gothic {
+  font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0;
+} */
+
+.box{
+    height: 500px;
+    width: 450px;
+    background-color: rgba(46, 99, 98, 0.441);
+    border-radius: 10px;
+    position: absolute;
+    left: 90px;
+    bottom: 0px;
+}
+.box h1{
+    font-family: "Science Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 50px;
+    color: 
+    beige;
+}
+.box p{
+    font-family: "Science Gothic", sans-serif;
+    
+    font-size: 20px;
+    line-height: 30px;
+    color: beige;
+}
+button{
+    height: 50px;
+    width: 250px;
+    margin: 20px;
+    background-image: linear-gradient(to left, pink, rgb(246, 180, 240));
+    border-radius: 20px;
+}
+.pictures{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 150px;
+    
+    gap: 20px;
+
+}
+.pictures img{
+    border-radius: 10px;
+}
